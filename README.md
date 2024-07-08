@@ -38,11 +38,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 ![alt text](assets/catalog.png)
 
-**Challenge:** Efficiently manage and query a large product catalog.
-**Algorithm:** Trie
-**Description:** A tree-like data structure that stores strings in a space-efficient way, allowing for fast retrieval of products based on prefixes.
-**Time Complexity:** O(L) for search, insert, and delete, where L is the length of the string.
-**Space Complexity:** O(N), where N is the number of characters in all the strings.
+**Challenge:** Efficiently manage and query a large product catalog.  
+**Algorithm:** Trie  
+**Description:** A tree-like data structure that stores strings in a space-efficient way, allowing for fast retrieval of products based on prefixes.  
+**Time Complexity:** O(L) for search, insert, and delete, where L is the length of the string.  
+**Space Complexity:** O(N), where N is the number of characters in all the strings.  
 **Approach:** 
 - Use a trie to store product names or categories.
 - Allows users to quickly find products by typing just a few characters, improving search speed and user experience.
@@ -50,11 +50,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 2. Price Adjustments
 **Use case:** Implementing dynamic pricing strategies based on factors like demand, time of day, or competitor prices.
 
-**Challenge:** Adjust product prices dynamically based on various factors.
-**Algorithm:** Segment Tree or Binary Indexed Tree (Fenwick Tree)
-**Description:** Efficient data structures for handling range queries and updates.
-**Time Complexity:** O(log N) for both update and query operations.
-**Space Complexity:** O(N)
+**Challenge:** Adjust product prices dynamically based on various factors.  
+**Algorithm:** Segment Tree or Binary Indexed Tree (Fenwick Tree)  
+**Description:** Efficient data structures for handling range queries and updates.  
+**Time Complexity:** O(log N) for both update and query operations.  
+**Space Complexity:** O(N)  
 
 **Approach:** 
 - Use a segment tree or Fenwick tree to maintain and query price ranges.
@@ -65,11 +65,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 ![alt text](assets/searching.png)
 
-**Challenge:** Efficiently search products based on user queries.
-**Algorithm:** Inverted Index
-**Description:** A data structure used to map content to its location, allowing for full-text searches.
-**Time Complexity:** O(1) for adding documents, O(k + log N) for querying, where k is the number of results.
-**Space Complexity:** O(N), where N is the number of terms.
+**Challenge:** Efficiently search products based on user queries.  
+**Algorithm:** Inverted Index  
+**Description:** A data structure used to map content to its location, allowing for full-text searches.  
+**Time Complexity:** O(1) for adding documents, O(k + log N) for querying, where k is the number of results.  
+**Space Complexity:** O(N), where N is the number of terms.  
 
 **Approach:** 
 - Build an inverted index for the product descriptions and titles.
@@ -80,11 +80,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 ![alt text](assets/filtering.png)
 
-**Challenge:** Filter products based on various attributes (e.g., price, brand, ratings).
-**Algorithm:** Bloom Filter + Bitmask
-**Description:** Bloom filters provide a space-efficient probabilistic data structure for testing membership, and bitmasking is useful for managing multiple attributes.
-**Time Complexity:** O(1) for bloom filter checks, O(1) for bitmask operations.
-**Space Complexity:** O(N) for bloom filter, O(1) for bitmask.
+**Challenge:** Filter products based on various attributes (e.g., price, brand, ratings).  
+**Algorithm:** Bloom Filter + Bitmask  
+**Description:** Bloom filters provide a space-efficient probabilistic data structure for testing membership, and bitmasking is useful for managing multiple attributes.  
+**Time Complexity:** O(1) for bloom filter checks, O(1) for bitmask operations.  
+**Space Complexity:** O(N) for bloom filter, O(1) for bitmask.  
 
 **Approach:** 
 - Use a Bloom filter for fast membership checks of product attributes and bitmasking for combining multiple filter criteria.
@@ -95,11 +95,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 ![alt text](assets/recommendation.png)
 
-**Challenge:** Provide personalized product recommendations.
-**Algorithm:** Collaborative Filtering (Matrix Factorization) + Content-Based Filtering
-**Description:** Collaborative filtering predicts user preferences based on the preferences of similar users, while content-based filtering recommends items similar to those the user has shown interest in.
-**Time Complexity:** O(N) for training with stochastic gradient descent, O(k) for generating recommendations.
-**Space Complexity:** O(M + N), where M is the number of users and N is the number of items.
+**Challenge:** Provide personalized product recommendations.  
+**Algorithm:** Collaborative Filtering (Matrix Factorization) + Content-Based Filtering  
+**Description:** Collaborative filtering predicts user preferences based on the preferences of similar users, while content-based filtering recommends items similar to those the user has shown interest in.  
+**Time Complexity:** O(N) for training with stochastic gradient descent, O(k) for generating recommendations.  
+**Space Complexity:** O(M + N), where M is the number of users and N is the number of items.  
 
 **Approach:** 
 - Combine collaborative filtering and content-based filtering for hybrid recommendations.
@@ -108,11 +108,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 6. Product Sorting based on different Metrics
 **Use case:** Dynamically sorting products based on various metrics such as price, ratings, relevance, and popularity to enhance user experience and increase sales.
 
-**Challenge:** Efficiently sort and re-sort large product catalogs based on multiple, potentially changing criteria.
-**Algorithm:** Red-Black Tree
-**Description:** A self-balancing binary search tree that maintains balance during insertions and deletions.
-**Time Complexity:** O(log N) for insertion, deletion, and search operations.
-**Space Complexity:** O(N), where N is the number of products.
+**Challenge:** Efficiently sort and re-sort large product catalogs based on multiple, potentially changing criteria.  
+**Algorithm:** Red-Black Tree  
+**Description:** A self-balancing binary search tree that maintains balance during insertions and deletions.  
+**Time Complexity:** O(log N) for insertion, deletion, and search operations.  
+**Space Complexity:** O(N), where N is the number of products.  
 
 **Approach:** 
 - Use a Red-Black Tree to maintain a sorted order of products for each sorting criterion.
@@ -124,11 +124,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 7. Sales and Discounts
 **Use case:** Managing time-sensitive promotions and applying discounts to specific products or categories efficiently.
 
-**Challenge:** Efficiently manage and apply sales and discounts.
-**Algorithm:** Interval Tree
-**Description:** A data structure to efficiently find all intervals that overlap with a given interval.
-**Time Complexity:** O(log N) for insertion and deletion, O(log N + k) for query, where k is the number of overlapping intervals.
-**Space Complexity:** O(N)
+**Challenge:** Efficiently manage and apply sales and discounts.  
+**Algorithm:** Interval Tree  
+**Description:** A data structure to efficiently find all intervals that overlap with a given interval.  
+**Time Complexity:** O(log N) for insertion and deletion, O(log N + k) for query, where k is the number of overlapping intervals.  
+**Space Complexity:** O(N)  
 
 **Approach:** 
 - Use an interval tree to manage time-based discounts and sales.
@@ -137,11 +137,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 8. Wishlist and Cart Management
 **Use case:** Allowing users to easily save items for later purchase and manage their shopping cart with quick add/remove operations.
 
-**Challenge:** Efficiently manage user wishlists and carts.
-**Algorithm:** Hash Map + Linked List
-**Description:** A combination of a hash map and a linked list for quick access and ordered retrieval.
-**Time Complexity:** O(1) for insert, delete, and access.
-**Space Complexity:** O(N)
+**Challenge:** Efficiently manage user wishlists and carts.  
+**Algorithm:** Hash Map + Linked List  
+**Description:** A combination of a hash map and a linked list for quick access and ordered retrieval.  
+**Time Complexity:** O(1) for insert, delete, and access.  
+**Space Complexity:** O(N)  
 
 **Approach:** 
 - Use a hash map to store the items in the wishlist and cart for O(1) access and a linked list to maintain the order of addition.
@@ -150,11 +150,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 9. Real time Order Tracking
 **Use case:** Providing real-time updates on order status and estimated delivery times to customers.
 
-**Challenge:** Track orders efficiently from placement to delivery.
-**Algorithm:** Graph + Dijkstra's Algorithm
-**Description:** Use a graph to represent the order tracking states and Dijkstra's algorithm for finding the shortest path.
-**Time Complexity:** O(E log V), where E is the number of edges and V is the number of vertices.
-**Space Complexity:** O(V + E)
+**Challenge:** Track orders efficiently from placement to delivery.  
+**Algorithm:** Graph + Dijkstra's Algorithm  
+**Description:** Use a graph to represent the order tracking states and Dijkstra's algorithm for finding the shortest path.  
+**Time Complexity:** O(E log V), where E is the number of edges and V is the number of vertices.  
+**Space Complexity:** O(V + E)  
 
 **Approach:** 
 - Represent the order tracking system as a graph where nodes are states (e.g., ordered, shipped, out for delivery) and edges are transitions.
@@ -163,11 +163,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 10. Customer Review Analysis
 **Use case:** Analyzing and summarizing millions of customer reviews to provide insights for both shoppers and sellers.
 
-**Challenge:** Efficiently process and analyze large volumes of text data from customer reviews.
-**Algorithm:** Min-Hash and Locality-Sensitive Hashing (LSH)
-**Description:** Techniques for quickly estimating how similar two sets are and finding similar items in large datasets.
-**Time Complexity:** O(N) for preprocessing, O(1) for similarity queries.
-**Space Complexity:** O(N) for storage of signatures.
+**Challenge:** Efficiently process and analyze large volumes of text data from customer reviews.  
+**Algorithm:** Min-Hash and Locality-Sensitive Hashing (LSH)  
+**Description:** Techniques for quickly estimating how similar two sets are and finding similar items in large datasets.  
+**Time Complexity:** O(N) for preprocessing, O(1) for similarity queries.  
+**Space Complexity:** O(N) for storage of signatures.  
 
 **Approach:** 
 - Use Min-Hash to create compact signatures of review content.
@@ -181,11 +181,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 11. Optimization for payment gateway
 **Use case:** Optimizing payment processing for faster trasactions.
 
-**Challenge:** To manage and prioritize a large volume of concurrent payment transactions.
-**Algorithm:** Binary Heap
-**Description:** A tree-based data structure which also satisfies the property of heap data structure.
-**Time Complexity:** O(log N) for insertion and deletion operations.
-**Space Complexity:** O(N), where N is the number of transactions.
+**Challenge:** To manage and prioritize a large volume of concurrent payment transactions.  
+**Algorithm:** Binary Heap  
+**Description:** A tree-based data structure which also satisfies the property of heap data structure.  
+**Time Complexity:** O(log N) for insertion and deletion operations.  
+**Space Complexity:** O(N), where N is the number of transactions.  
 
 **Approach:** 
 - Use a binary heap to optimize and process payment transactions efficiently.
@@ -195,11 +195,11 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ## 12. Multiple Language Support
 **Use case:** Supporting multiple languages for customers to enhance user experience.
 
-**Challenge:** Efficiently manage and retrieve translations for a large set of phrases and terms across multiple languages.
-**Algorithm:** Trie
-**Description:** A tree-like data structure used to store and retrieve strings, particularly effective for prefix-based operations.
-**Time Complexity:** O(L) for insertion and lookup, where L is the length of the string.
-**Space Complexity:** O(N * L), where N is the number of strings and L is the average length of the strings.
+**Challenge:** Efficiently manage and retrieve translations for a large set of phrases and terms across multiple languages.  
+**Algorithm:** Trie  
+**Description:** A tree-like data structure used to store and retrieve strings, particularly effective for prefix-based operations.  
+**Time Complexity:** O(L) for insertion and lookup, where L is the length of the string.  
+**Space Complexity:** O(N * L), where N is the number of strings and L is the average length of the strings.  
 
 **Approach:** 
 - Use a Trie data structure to store and manage translations for various phrases and terms.
