@@ -23,17 +23,17 @@ The aim is to:
 - use algorithms to improve time complexity for certain cases like product filtering and searching, order tracking.
 - provide an overall seamless experience to user for all the cases.
 
-This portfolio will showcase how advanced data structures and algorithms can revolutionize Amazon's e-commerce operations, ultimately leading to a shopping experience so compelling that users will keep coming back for more.
+This portfolio will showcase how advanced data structures and algorithms can revolutionize Amazon's e-commerce operations, ultimately leading to a engaging user experience.
 
 ## Challenges
 Here's a list of tasks I plan to tackle for this portfolio project:
-- **Research and Choose Algorithms:** Explore different algorithms from the course syllabus (and beyond) to implement key functionalities.
-- **Research Data Structures:** Research appropriate data structures to efficiently store user profiles, product catalog, and performance data.
-- **Evaluate and Analyze Results:** Measure the performance of the system using various metrics, identify areas for improvement, and reflect on the algorithms and design choices.
+- **Research for Algorithms:** Explore different algorithms from the course syllabus (and beyond) to implement key functionalities.
+- **Research for Data Structures:** Research appropriate data structures to efficiently store product catalog, and user data.
+- **Evaluate Results:** Measure the performance of the system using various metrics, identify areas for improvement, and reflect on the algorithms and design choices.
 
 ## Business Use Cases
 
-### 1. Product Catalogue
+### 1. Product Catalog
 **Use case:** Enabling fast and efficient autocomplete suggestions as users type product names or categories.
 
 **Challenge:** Efficiently manage and query a large product catalog.
