@@ -67,7 +67,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 
 **Challenge:** Efficiently search products based on user queries.  
 **Algorithm:** Binary Search  
-**Description:** A classic algorithm for searching where elements are arranged in a sorted order.
+**Description:** A classic algorithm for searching where elements are arranged in a sorted order.  
 **Time Complexity:** O(1) for adding documents, O(logN) for searching where N is the number of searchable items.  
 **Space Complexity:** O(N), where N is the number of items.  
 
@@ -82,7 +82,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ![alt text](assets/filtering.png)
 
 **Challenge:** Filter products based on various attributes (e.g., price, brand, ratings).  
-**Data Structure:** Segment Trees: A binary tree used for storing intervals or segments.
+**Data Structure:** Segment Trees: A binary tree used for storing intervals or segments.  
 **Time Complexity:** Query: O(log N) Update: O(log N).  
 **Space Complexity:** O(N), where N is the number of products.  
 
