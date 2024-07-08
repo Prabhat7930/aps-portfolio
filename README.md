@@ -82,14 +82,12 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ![alt text](assets/filtering.png)
 
 **Challenge:** Filter products based on various attributes (e.g., price, brand, ratings).  
-**Algorithm:** Bloom Filter + Bitmask  
-**Description:** Bloom filters provide a space-efficient probabilistic data structure for testing membership, and bitmasking is useful for managing multiple attributes.  
-**Time Complexity:** O(1) for bloom filter checks, O(1) for bitmask operations.  
-**Space Complexity:** O(N) for bloom filter, O(1) for bitmask.  
+**Data Structure:** Segment Trees: A binary tree used for storing intervals or segments.
+**Time Complexity:** Query: O(log N) Update: O(log N).  
+**Space Complexity:** O(N), where N is the number of products.  
 
 **Approach:** 
-- Use a Bloom filter for fast membership checks of product attributes and bitmasking for combining multiple filter criteria.
-- Allows for efficient and flexible product filtering.
+- Build segment trees for various product attributes (price, ratings, etc.). Each segment tree preprocesses the data to enable quick range queries and updates. For instance, filtering products within a certain price range is achieved through a logarithmic time query on the price segment tree, ensuring swift and responsive filtering.
 
 ### 5. Product Recommendation System
 **Use case:** Offering personalized product suggestions to users based on their browsing history, purchase patterns, and similar users' preferences.
