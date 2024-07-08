@@ -3,8 +3,8 @@
 ## Course Information
 **Course Name:** Algorithmic Problem Solving  
 **Course Code:** 23ECSE309  
-**Name:** Prabhat Kumar Rai
-**University:** KLE Technological University
+**Name:** Prabhat Kumar Rai  
+**University:** KLE Technological University  
 **Portfolio Topic:** E-commerce
 
 ## Table of Contents
