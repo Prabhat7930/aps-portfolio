@@ -47,7 +47,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 - Use a trie to store product names or categories.
 - Allows users to quickly find products by typing just a few characters, improving search speed and user experience.
 - 
-### 2. Price Scaling
+### 2. Price Adjustments
 **Use case:** Implementing dynamic pricing strategies based on factors like demand, time of day, or competitor prices.
 
 **Challenge:** Adjust product prices dynamically based on various factors.
