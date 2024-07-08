@@ -66,14 +66,15 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ![alt text](assets/searching.png)
 
 **Challenge:** Efficiently search products based on user queries.  
-**Algorithm:** Inverted Index  
-**Description:** A data structure used to map content to its location, allowing for full-text searches.  
-**Time Complexity:** O(1) for adding documents, O(k + log N) for querying, where k is the number of results.  
-**Space Complexity:** O(N), where N is the number of terms.  
+**Algorithm:** Binary Search  
+**Description:** A classic algorithm for searching where elements are arranged in a sorted order.
+**Time Complexity:** O(1) for adding documents, O(logN) for searching where N is the number of searchable items.  
+**Space Complexity:** O(N), where N is the number of items.  
 
 **Approach:** 
-- Build an inverted index for the product descriptions and titles.
-- Enables quick keyword-based searching, enhancing the product search experience.
+- Build a binary searh algorithm for searching product by names.
+- Product names can be arranged in lexicograpically fashion.
+- Could be used for quick keyword-based searching, enhancing the product search experience.
 
 ### 4. Product Filtering Based on different Metrics
 **Use case:** Allowing users to quickly narrow down product selections based on multiple criteria like price range, brand, and ratings.
