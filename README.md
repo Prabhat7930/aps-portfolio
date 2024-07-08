@@ -36,7 +36,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 1. Product Catalog
 **Use case:** Enabling fast and efficient autocomplete suggestions as users type product names or categories.
 
-![alt text](https://github.com/Prabhat7930/aps-portfolio/blob/master/assets/catalog.png)
+![alt text](assets/catalog.png)
 
 **Challenge:** Efficiently manage and query a large product catalog.
 **Algorithm:** Trie
@@ -63,7 +63,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 3. Product Searching
 **Use case:** Providing fast and relevant search results for millions of products based on user queries.
 
-![alt text](https://github.com/Prabhat7930/aps-portfolio/blob/master/assets/searching.png)
+![alt text](assets/searching.png)
 
 **Challenge:** Efficiently search products based on user queries.
 **Algorithm:** Inverted Index
@@ -78,7 +78,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 4. Product Filtering Based on different Metrics
 **Use case:** Allowing users to quickly narrow down product selections based on multiple criteria like price range, brand, and ratings.
 
-![alt text](https://github.com/Prabhat7930/aps-portfolio/blob/master/assets/filtering.png)
+![alt text](assets/filtering.png)
 
 **Challenge:** Filter products based on various attributes (e.g., price, brand, ratings).
 **Algorithm:** Bloom Filter + Bitmask
@@ -93,7 +93,7 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 5. Product Recommendation System
 **Use case:** Offering personalized product suggestions to users based on their browsing history, purchase patterns, and similar users' preferences.
 
-![alt text](https://github.com/Prabhat7930/aps-portfolio/blob/master/assets/recommendation.png)
+![alt text](assets/recommendation.png)
 
 **Challenge:** Provide personalized product recommendations.
 **Algorithm:** Collaborative Filtering (Matrix Factorization) + Content-Based Filtering
