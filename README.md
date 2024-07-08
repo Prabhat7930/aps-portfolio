@@ -36,6 +36,8 @@ Here's a list of tasks I plan to tackle for this portfolio project:
 ### 1. Product Catalog
 **Use case:** Enabling fast and efficient autocomplete suggestions as users type product names or categories.
 
+![alt text]([https://github.com/Prabhat7930/aps-portfolio/blob/master/assets/catalog.png])
+
 **Challenge:** Efficiently manage and query a large product catalog.
 **Algorithm:** Trie
 **Description:** A tree-like data structure that stores strings in a space-efficient way, allowing for fast retrieval of products based on prefixes.
